@@ -52,7 +52,7 @@ def giyushino(history: List[Tuple[str, str]]) -> str:
         last_4_opponent_moves = [move[1] for move in history[-4:]]
         if last_4_opponent_moves == ['defect', 'defect', 'defect', 'defect']:
             return "defect"
-        if last_4_opponent_moves == ['cooperate', 'cooperate', 'cooperate', 'cooperate']:
+        elif last_4_opponent_moves == ['cooperate', 'cooperate', 'cooperate', 'cooperate']:
             return "defect"
         else:
             if history[-1][1] == "cooperate":
