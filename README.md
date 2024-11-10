@@ -2,7 +2,7 @@ My proposed solution to @joeeliang prisoner's dilemma. The first 3 moves played 
 
 My bot lost to "Always Defect" 99-104, beat "Always Cooperate" 492-12, beat "Tit for Tat" 255-250, and lost to "Random" 178-258
 
-Total scores 
+Total scores    
 Always Defect: 992   
 Always Cooperate: 471   
 Tit for Tat: 879   
