@@ -45,7 +45,7 @@ def random_choice(history: List[Tuple[str, str]]) -> str:
     return random.choice(['cooperate', 'defect'])
 
 
-def giyusino(history: List[Tuple[str, str]]) -> str:
+def giyushino(history: List[Tuple[str, str]]) -> str:
     if not history:
         return 'cooperate'
     if len(history) > 3:
@@ -92,7 +92,7 @@ def main():
         Bot("Always Cooperate", always_cooperate),
         Bot("Tit for Tat", tit_for_tat),
         Bot("Random", random_choice),
-        Bot("Giyusino", giyusino)
+        Bot("Giyushino", giyushino)
     ]
 
     rounds = 100
