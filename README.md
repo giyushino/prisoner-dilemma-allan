@@ -4,8 +4,8 @@ My bot lost to "Always Defect" 99-104, beat "Always Cooperate" 492-12, beat "Tit
 
 Total scores 
 
-Always Defect: 992
-Always Cooperate: 471
-Tit for Tat: 879
-Random: 936
-Giyusino: 1024
+Always Defect: 992   
+Always Cooperate: 471   
+Tit for Tat: 879   
+Random: 936   
+Giyusino: 1024   
