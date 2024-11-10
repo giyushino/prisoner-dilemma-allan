@@ -1,6 +1,6 @@
-,Always Defect,Always Cooperate,Tit for Tat,Random,Giyusino
+,Always Defect,Always Cooperate,Tit for Tat,Random,Giyushino
 Always Defect,,500 - 0,104 - 99,284 - 54,104 - 99
 Always Cooperate,0 - 500,,300 - 300,159 - 394,12 - 492
 Tit for Tat,99 - 104,300 - 300,,230 - 230,250 - 255
 Random,54 - 284,394 - 159,230 - 230,,258 - 178
-Giyusino,99 - 104,492 - 12,255 - 250,178 - 258,
+Giyushino,99 - 104,492 - 12,255 - 250,178 - 258,
