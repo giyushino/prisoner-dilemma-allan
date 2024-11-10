@@ -55,8 +55,11 @@ def giyusino(history: List[Tuple[str, str]]) -> str:
         if last_4_opponent_moves == ['cooperate', 'cooperate', 'cooperate', 'cooperate']:
             return "defect"
         else:
-            x = random.choice(last_4_opponent_moves)
-            return x
+            if history[-1][1] == "cooperate":
+                return "cooperate"
+            else:
+                x = random.choice(last_4_opponent_moves)
+                return x
     else:
         if history[-1][1] == 'cooperate':
             return "cooperate"
