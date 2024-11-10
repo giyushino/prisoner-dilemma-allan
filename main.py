@@ -63,12 +63,6 @@ def giyusino(history: List[Tuple[str, str]]) -> str:
         else:
             return "defect"
 
-
-
-
-
-
-
 # ----- add your bot here! You can look at the previous code for some inspiration. Don't forget to add your bot to the main function below later!
 
 def run_simulation(game: PrisonersDilemma, bot1: Bot, bot2: Bot, rounds: int) -> Tuple[int, int]:
